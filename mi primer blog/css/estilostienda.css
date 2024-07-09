@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; /* fuente */
+    background-color: #f4f4f4; /* color de fondo */
+    margin: 0; /* sin margen */
+    padding: 0; /* sin relleno */
+}
+
+header{
+    background-color: brown; /* color de fondo para el encabezado */
+    color: white; /* color de texto */
+    text-align: center; /* centrado el texto */
+    padding: 1em 0; /* relleno de encabezado */
+}
+
+.contenedor{
+    display: flex; /* usamos flexbox */
+    justify-content: space-around; /*  espacio alrededor de los elementos*/
+    margin: 2em auto; /* margen automatico */
+    max-width: 1000px; /* ancho maximo */
+}
+
+.productos{
+    flex: 1; /* flex de productos */
+    margin-right: 20px; /* margen derecho */
+}
+
+.producto{
+    border: 1px solid #ccc; /* borde derl producto */
+    padding: 10px; /* relleno del producto */
+    margin-bottom: 50px; /* margen inderior */
+    background-color: blanchedalmond; /* color de fondo */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* sombra */
+    border-radius: 10px; /* borde curveado */
+    text-align: center; /* alineacion al centro */
+} 
+
+.producto img{
+    max-width: 50%; /* ancho de imagen */
+    height: auto; /* altura automatica */
+    border-radius: 10px; /* bordes curveados */
+}
+
+.carrito{
+    flex: 1; /* flex del carrito */
+    border: 1px solid #ccc; /* borde del carrito */
+    padding: 10px; /* relleno del carrito */
+    background-color: blanchedalmond; /* color de fondo */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* sombra del carrito */
+    border-radius: 10px; /* bordes curveados */
+    margin-bottom: auto;
+}
+
+.carrito h2{
+    text-align: center; /* alinear texto al centro */
+}
+.carrito ul{
+    list-style-type: none; /* eliminar viñetas */
+    padding: 0; /* sin relleno */
+}
+.carrito li{
+    margin-bottom: 10px; /* margen inferior */
+}
+.carrito button{
+    display: block; /* bloque */
+    margin: 10px auto; /* margen */
+    padding: 10px; /* relleno */ 
+    background-color: gray; /* color de fondo */
+    color: white; /* color de texto */
+    border: none; /* sin bordes */
+    cursor: pointer; /* cursor de mano */
+    border-radius: 10px; /* bordes curvedos */
+    transition: background-color 0.3s; /* cambio de color */
+}
+.carrito button:hover{
+    background-color: #555; /* cambio de color al pasar el cursor */
+}

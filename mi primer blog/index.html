@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer blog</title>
+    <link rel="stylesheet" href="css/estilos.css"> <!-- Vincula elarchivo HTML con el CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Libreria -->
+    <link rel="icon" href="css/img/favicon1.ico" type="img/icono-blog"> <!-- Agregamos icono para la ventana -->
+</head>
+
+<body>
+    <header><h1>Bienvenidos a mi primer blog</h1></header><!-- Encabezado de nivel 1 -->
+    <nav>
+     <a href="#acerca">Acerca de mi</a> <!--Asignar enlace a la seccion "acerca" dentro del documento-->
+     <a href="#aficiones">Mis aficiones</a> <!--Asignar enlace a la seccion "aficiones" dentro del documento-->
+     <a href="#redes">Mis redes sociales</a> <!--Asignar enlace a la seccion "redes" dentro del documento-->
+     <a href="#foto">Mi foto</a> <!--Asignar enlace a la seccion "foto" dentro del documento-->
+     <a href="#conocimientos">Mis conocimientos</a> <!--Asignar enlace a la seccion "conocimentos" dentro del documento-->
+     <a href="#proyectos">Proyectos</a>
+     <a href="#contacto">Correo electronico</a>  <!--Asignar enlace a la seccion "contacto" dentro del documento-->
+    </nav>
+    <!--<P>Esto es un blog basico para mostrar cosas sobre mi</P> --> <!--Parrafo-->
+  <div class="container">
+    <h2 id="acerca">Acerca de mi</h2> <!--Encabezado de nivel 2--> <!--id para identificar el enlace que referencia-->
+    <p>Me llamo Guillermo y soy un estudiante de el curso Arquitectura de entornos web.</p>
+    <p>Estoy aprendiendo HTML.</p>
+    <h3 id="aficiones">Mis aficiones</h3> <!--Encabezado de nivel 3 -->
+    <ul> <!--Lista con viñetas-->
+      <li>Programar</li> <!--Cada de una lista-->
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>JavaScrip</li> 
+      </ul>
+      <li>Hacer deporte</li>
+      <ul>
+        <li>Futbol</li>
+        <li>Ciclisto</li>
+        <li>Natacion</li>
+        <li>Basquet</li>
+        <li>Skateboarding</li>
+      </ul>
+      <li>Leer</li>
+      <ul>
+        <li>Mushuko Tensei</li>
+        <li>Condorito</li>
+        <li>La iliada</li>
+        <li>La odisea</li>
+      </ul>
+      <li>Cocinar</li>
+      <ul>
+        <li>Arroz chaufa</li>
+        <li>Caldo de gallina</li>
+        <li>Seco a la norteña</li>
+      </ul>
+      <li>Jugar videojuegos</li>
+      <ul>
+        <li>Valorant</li>
+        <li>League of legends</li>
+        <li>OSU</li>
+        <li>Minecraft</li>
+      </ul>
+    </ul>
+    <h3 id="redes">Mis redes sociales</h3>
+  <div class="social-icons">
+    <!--<ol>--> <!--Lista ordenada, numerica-->
+        <!--<li>--><a href="https://www.facebook.com/profile.php?id=61559571860762" target="_blank" title="facebook"><i class="fab fa-facebook"></i></a><!--</li>--> <!--Etiqueta para agregar enlaces-->
+        <!--<li>--><a href="https://www.instagram.com/empanadade_c/" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a><!--</li>-->
+        <!--<li>--><a href="https://www.tiktok.com/@panconqueso5028" target="_blank" title="tiktok"><i class="fab fa-tiktok"></i></a><!--</li>--> <!--target=-black para abrir el enlace en una nueva pestaña-->
+        <!--<li>--><a href="https://discord.com/" target="_blank" title="discord"><i class="fab fa-discord"></i></a><!--</li>-->
+    <!--</ol>-->
+  </div>
+    <h3 id="foto">Mi foto</h3>
+    
+    <img src="" alt="Aqui deberia haber una foto de perfil"/>
+    <!--alt para agregar un texto alternativo en caso haya error en la carga de la imagen-->
+    <!--Etiqueta imagen, src indica el origen de la imgen-->
+    <h3 id="conocimientos">Mis conocimientos</h3>
+    <table> <!--Tabla de conociminetos de programacion-->
+      <tr> <!--Fila de la tabla-->
+        <th>Lenguaje </th> <!--Encabezado para la columna "lenguaje"-->
+        <th>Nivel</th> <!--Encabezado para la columna "nivel"-->
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Avanzado</td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Basico</td>
+      </tr>
+      <tr>
+        <td>Python</td>
+        <td>Basico</td>
+      </tr>
+      <tr>
+       <td>Java</td>  
+       <td>Basico</td>
+      </tr>
+      <tr>
+       <td>JavaScript</td>
+       <td>Avanzado</td>
+      </tr>
+    </table>   
+    <h3 id="proyectos">Proyectos</h3>
+    <div>
+      <ul>
+        <a href="tienda.html" target="_blank">Tienda virtual</a>
+      </ul>
+    </div>
+    
+    <h3>Testimonio</h3>
+    <div class="testimonials">
+      <div class="testimonial">
+        <p>
+          "Victor es un derrollador en HTML y CSS apasionado uqe siempre busca aprender de los demas<br>
+          y mejorar sus habilidades"
+        </p>
+          <div class="author">- Guillermo Ortiz</div>
+      </div>
+      <div class="testimonial">
+        <p>
+          "trabajar con Victor fue una experiencia increible"
+        </p> 
+        <div class="author">- Maria Jose</div>
+      </div>
+    </div>
+
+    <h3 id="contacto">Correo de contacto</h3>
+    <p>Si deseas contastarme para un trabajo, enviame un correo a la siguiente dirección:
+        <a href="mailto:ortizquijanoguillermo@gmail.com">ortizquijanoguillermo@gmail.com</a>
+        <!--etiqueta para agregregar enlace, y unamos el mailto para crear el enlace al correo electronico -->
+    </p> 
+    <h3>Formulario de contacto</h3>
+    <form action="#" method="post">
+      <label>Nombre:</label><br> <!-- Cuadro de texto no editable -->
+      <input type="text" id="name" name="name" required><br>
+      <label>Correo electronico:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label>Mensaje:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+      <input type="submit" value="Enviar"><br>
+    </form>
+  </div>
+    <footer>
+      <p>&copy; 2024 Guillermo Ortiz. Todos los derechos reservados</p>
+    </footer>
+</body>
+</html> 
